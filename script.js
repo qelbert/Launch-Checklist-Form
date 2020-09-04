@@ -9,6 +9,8 @@ window.addEventListener("load", function() {
    const faultyVisibility = document.getElementById("faultyItems");
    const fuelStat = document.getElementById("fuelStatus");
    const cargoStat = document.getElementById("cargoStatus");
+   const pilotStat = document.getElementById("pilotStatus");
+   const copilotStat = document.getElementById("copilotStatus");
 
 
    fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response){
@@ -36,6 +38,8 @@ window.addEventListener("load", function() {
      if ( Number(fuelInput.value) < 10000 ) {
          // stop the form submission
          event.preventDefault();
+         pilotStat.innerHTML=`Pilot ${pilotInput.value} is ready for launch`;
+         copilotStat.innerHTML = `Co-pilot ${copilotInput.value} is ready for launch`;
          fuelStat.innerHTML="Fuel level too low for launch";
          launchStat.innerHTML = "Shuttle Not Ready for Launch";
          launchStat.style.color = "red";
@@ -45,6 +49,8 @@ window.addEventListener("load", function() {
      
      if ( Number(cargoInput.value) > 10000 ) {
          event.preventDefault();
+         pilotStat.innerHTML=`Pilot ${pilotInput.value} is ready for launch`;
+         copilotStat.innerHTML = `Co-pilot ${copilotInput.value} is ready for launch`;
          cargoStat.innerHTML="Cargo mass too high for launch";
          launchStat.innerHTML = "Shuttle Not Ready for Launch";
          launchStat.style.color = "red";
