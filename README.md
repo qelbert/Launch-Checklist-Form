@@ -6,10 +6,13 @@
 Designed for use on all OS's.
 
 <h3>Languages and Tools used:</h3>
-JavaScript
-the DOM
-HTTP
-HTML and Forms / CSS
+
+<ul>
+<li>JavaScript</li>
+<li>the DOM</li>
+<li>HTTP</li>
+<li>HTML and Forms / CSS</li>
+</ul>
 
 <h3>Functions:</h3>
 
@@ -19,4 +22,3 @@ HTML and Forms / CSS
 <li>Indicate what is good or bad about the shuttle and whether it is ready for launch by using the DOM to update the CSS;</li>
 <li>Fetch JSON to update the mission destination with vital facts and figures about where the shuttle is headed.</li>
 </ul>
-
