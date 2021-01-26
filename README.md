@@ -2,13 +2,10 @@
 
 ![Demonstration of Launch Checklist app](launch_checklist_form2_gif.gif)
 
-<h2>Class Project: The Launch Checklist Form makes it easy for astronaut's to validate the information necessary to ensure a safe and successful launch of the group's vessel.</h2>
+## Purpose
+Class Project: The Launch Checklist Form makes it easy for astronaut's to validate the information necessary to ensure a safe and successful launch of the group's vessel.
 
-<h3>Usage:</h3>
-Designed for use on all OS's.
-
-<h3>Languages and Tools used:</h3>
-
+## Skills
 <ul>
 <li>JavaScript</li>
 <li>the DOM</li>
@@ -16,7 +13,7 @@ Designed for use on all OS's.
 <li>HTML and Forms / CSS</li>
 </ul>
 
-<h3>Functions:</h3>
+## Features
 
 <ul>
 <li>Validate the user responses;</li>
