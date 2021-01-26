@@ -1,5 +1,7 @@
 <h1>Launch Checklist Form</h1>
 
+![Demonstration of Launch Checklist app](launch_checklist_gif.gif)
+
 <h2>Class Project: The Launch Checklist Form makes it easy for astronaut's to validate the information necessary to ensure a safe and successful launch of the group's vessel.</h2>
 
 <h3>Usage:</h3>
